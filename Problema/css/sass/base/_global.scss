@@ -1,0 +1,39 @@
+/*GLOBAL*/
+*  h1,h2, h3 ,h4 {font-family: 'Open Sans Condensed', sans-serif;}
+body{
+    color:inherit;
+}
+section{
+    padding: 40px 0px;
+
+}
+@mixin h ($font-size){
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: $font-size;
+}
+h1{
+    @include h(40px);
+}
+h4{
+    @include h(18px);
+}
+h3{
+    color: #AFAFAF;
+    @include h(25px);
+}
+h2 {
+    color: white;
+    @include h(25px);
+}
+p{
+    font-size: 17px;
+     font-family: 'Roboto', sans-serif;
+}
+.btn_orange{
+    background-color: #E8663C;
+    padding: 4px 8px 4px 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}

@@ -1,0 +1,22 @@
+/*HEADER*/
+@mixin navbar_mixin($background-color, $color) {
+    text-transform: uppercase;
+    background-color: $background-color;
+    color: $color;
+}
+.navbar-default {
+    padding: 0px 100px;
+    @include navbar_mixin(white , #C1C1C1);
+}
+.navbar-default .navbar-nav .active > a {
+    @include navbar_mixin(white , black);
+}
+.navbar-default .navbar-nav > li > a {
+    @include navbar_mixin(white , #C1C1C1);
+}
+.navbar-default .navbar-nav > li > a:hover {
+    @include navbar_mixin(white ,#E8603C);
+}
+.navbar-default .navbar-nav > li > a:focus {
+    @include navbar_mixin(#E8603C , white);
+}

@@ -1,0 +1,30 @@
+/*HOME*/
+#ei-slider{
+    background-image: url(../images/slider.jpg);
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    margin-top: 100px;
+}
+.home_text{
+        i{
+            font-size: 40px;
+            float: left;
+        }
+}
+.from_blog{
+    background-image: url(../images/heading-bg.png);
+    background-repeat: repeat-x;
+    height: 50px;
+    width: 86%;
+    float: right;
+}
+.blog_post_meta{
+    padding: 0px;
+    img{
+        width: 100%;
+    }
+}
+.info_blog{
+    box-shadow: 1px 1px 1px -1px  black;
+}

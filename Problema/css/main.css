@@ -1,0 +1,145 @@
+/*HOME*/
+#ei-slider {
+  background-image: url(../images/slider.jpg);
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+  margin-top: 100px; }
+
+.home_text i {
+  font-size: 40px;
+  float: left; }
+
+.from_blog, #from_blog_about {
+  background-image: url(../images/heading-bg.png);
+  background-repeat: repeat-x;
+  height: 50px;
+  width: 86%;
+  float: right; }
+
+.blog_post_meta {
+  padding: 0px; }
+  .blog_post_meta img {
+    width: 100%; }
+
+.info_blog {
+  box-shadow: 1px 1px 1px -1px  black; }
+
+.mt {
+  padding: 3px;
+  margin-top: 100px; }
+
+.autor img {
+  float: left; }
+
+#from_blog_about {
+  width: 45%;
+  height: 34px; }
+
+#mg_0 {
+  width: 100%;
+  margin: 0px; }
+
+.bckg_pink {
+  background-color: #F3AF9D;
+  width: 20%;
+  margin: 2px;
+  height: 50px;
+  border: 1px solid  #E8603C; }
+
+#autor img {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid black; }
+
+#border_orange {
+  margin-left: 30px;
+  padding: 0px 15px;
+  border-left: 10px solid #E8603C; }
+
+/*HEADER*/
+.navbar-default {
+  padding: 0px 100px;
+  text-transform: uppercase;
+  background-color: white;
+  color: #C1C1C1; }
+
+.navbar-default .navbar-nav .active > a {
+  text-transform: uppercase;
+  background-color: white;
+  color: black; }
+
+.navbar-default .navbar-nav > li > a {
+  text-transform: uppercase;
+  background-color: white;
+  color: #C1C1C1; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  text-transform: uppercase;
+  background-color: white;
+  color: #E8603C; }
+
+.navbar-default .navbar-nav > li > a:focus {
+  text-transform: uppercase;
+  background-color: #E8603C;
+  color: white; }
+
+/*FOOTER*/
+footer {
+  color: white; }
+  footer .single_footer {
+    padding: 5px 40px; }
+
+/*GLOBAL*/
+* h1, h2, h3, h4 {
+  font-family: 'Open Sans Condensed', sans-serif; }
+
+body {
+  color: inherit; }
+
+section {
+  padding: 40px 0px; }
+
+h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 40px; }
+
+h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px; }
+
+h3 {
+  color: #AFAFAF;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 25px; }
+
+h2 {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 25px; }
+
+p {
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif; }
+
+.btn_orange {
+  background-color: #E8663C;
+  padding: 4px 8px 4px 10px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.color_orange {
+  color: #E8663C; }
+
+.color_pink {
+  color: #F3AF9D; }
+
+.bckg_orange {
+  background-color: #E8603C; }
+
+/*# sourceMappingURL=main.css.map */

@@ -36,10 +36,6 @@
   width: 45%;
   height: 34px; }
 
-#mg_0 {
-  width: 100%;
-  margin: 0px; }
-
 .bckg_pink {
   background-color: #F3AF9D;
   width: 20%;
@@ -132,6 +128,10 @@ p {
   color: white;
   text-transform: uppercase;
   font-weight: bold; }
+
+#mg_0 {
+  width: 100%;
+  margin: 0px; }
 
 .color_orange {
   color: #E8663C; }

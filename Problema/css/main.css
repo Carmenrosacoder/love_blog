@@ -65,29 +65,42 @@
 /*HEADER*/
 .navbar-default {
   padding: 0px 100px;
+  font-weight: bold;
+  font-family: 'Open Sans Condensed', sans-serif;
   text-transform: uppercase;
   background-color: white;
   color: #C1C1C1; }
 
 .navbar-default .navbar-nav .active > a {
+  font-weight: bold;
+  font-family: 'Open Sans Condensed', sans-serif;
   text-transform: uppercase;
   background-color: white;
   color: black; }
 
 .navbar-default .navbar-nav > li > a {
+  font-weight: bold;
+  font-family: 'Open Sans Condensed', sans-serif;
   text-transform: uppercase;
   background-color: white;
   color: #C1C1C1; }
 
 .navbar-default .navbar-nav > li > a:hover {
+  font-weight: bold;
+  font-family: 'Open Sans Condensed', sans-serif;
   text-transform: uppercase;
   background-color: white;
   color: #E8603C; }
 
 .navbar-default .navbar-nav > li > a:focus {
+  font-weight: bold;
+  font-family: 'Open Sans Condensed', sans-serif;
   text-transform: uppercase;
   background-color: #E8603C;
   color: white; }
+
+.nav {
+  padding-top: 35px; }
 
 /*FOOTER*/
 footer {
@@ -150,6 +163,25 @@ p {
 
 .text-right {
   float: right; }
+
+.separador {
+  margin-top: 100px;
+  position: fixed; }
+
+#right {
+  position: fixed;
+  float: left;
+  margin-left: 96%; }
+
+.as {
+  width: 43px;
+  height: 368px;
+  margin-top: -394px; }
+
+.as2 {
+  width: 43px;
+  height: 368px;
+  margin-top: -372px; }
 
 .color_orange {
   color: #E8663C; }

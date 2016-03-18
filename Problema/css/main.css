@@ -10,11 +10,11 @@
   font-size: 40px;
   float: left; }
 
-.from_blog, #from_blog_about {
+.from_blog, #from_blog_about, #from_blog_carrusel {
   background-image: url(../images/heading-bg.png);
   background-repeat: repeat-x;
   height: 50px;
-  width: 86%;
+  width: 70%;
   float: right; }
 
 .blog_post_meta {
@@ -23,7 +23,9 @@
     width: 100%; }
 
 .info_blog {
-  box-shadow: 1px 1px 1px -1px  black; }
+  padding: 4px;
+  border: 1px solid #c1c1c1;
+  border-top: none; }
 
 #myCarousel {
   margin-top: 50px;
@@ -41,7 +43,7 @@
   width: 38%;
   height: 34px; }
 
-.bckg_pink, .bckg_pink_separador, .bckg_pink_separador_footer {
+.bckg_pink, .bckg_pink_separador {
   background-color: #F3AF9D;
   width: 20%;
   margin: 2px;
@@ -168,7 +170,7 @@ p {
 .text-right {
   float: right; }
 
-.bckg_pink_separador, .bckg_pink_separador_footer {
+.bckg_pink_separador {
   width: 100%;
   margin-top: 105px;
   position: absolute;
@@ -202,6 +204,9 @@ p {
   #cita2 img {
     width: 5%; }
 
+#from_blog_carrusel {
+  width: 100%; }
+
 textarea, input {
   border: 1px solid #E8663C;
   padding: 13px;
@@ -227,5 +232,11 @@ input {
   border-radius: none;
   border-bottom-left-radius: 0px;
   border-top-left-radius: 0px; }
+
+#portfolio_img img {
+  padding: 1px;
+  border: 1px solid #c1c1c1; }
+#portfolio_img .info_blog {
+  border-top: 1px solid #c1c1c1; }
 
 /*# sourceMappingURL=main.css.map */

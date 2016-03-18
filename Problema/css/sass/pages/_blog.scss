@@ -3,6 +3,8 @@
 }
 #cita2{
 	background-color: #f6f6f6;
+    margin-left: 54px;
+
 	img{
 		width: 5%;
 	}
@@ -10,4 +12,9 @@
 #from_blog_carrusel{
 	@extend .from_blog;
 	width: 100%;
+}
+#pagination_blog{
+li{
+    a{background-color: #E8663C;
+    color: white;}}
 }

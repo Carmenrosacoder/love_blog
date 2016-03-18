@@ -14,7 +14,7 @@
   background-image: url(../images/heading-bg.png);
   background-repeat: repeat-x;
   height: 50px;
-  width: 70%;
+  width: 80%;
   float: right; }
 
 .blog_post_meta {
@@ -184,6 +184,17 @@ p {
   border-left: 6px solid white;
   border-right: 6px solid white; }
 
+footer {
+  border-left: 10px solid white;
+  border-right: 10px solid white;
+  margin: 0px 40px; }
+
+.pink {
+  background-color: pink; }
+
+@media screen and (max-width: 600px) {
+  section {
+    padding: 20px 0px; } }
 .color_orange {
   color: #E8663C; }
 
@@ -196,16 +207,25 @@ p {
 .text-black {
   color: black; }
 
+.white {
+  background-color: red;
+  margin-left: -55px; }
+
 .carruse {
   padding: 0px; }
 
 #cita2 {
-  background-color: #f6f6f6; }
+  background-color: #f6f6f6;
+  margin-left: 54px; }
   #cita2 img {
     width: 5%; }
 
 #from_blog_carrusel {
   width: 100%; }
+
+#pagination_blog li a {
+  background-color: #E8663C;
+  color: white; }
 
 textarea, input {
   border: 1px solid #E8663C;

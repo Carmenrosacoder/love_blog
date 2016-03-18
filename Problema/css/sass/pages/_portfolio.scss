@@ -1,4 +1,12 @@
 .pagination>li>a, .pagination>li>span {
-   color:#AFAFAF;
+   color:#C1C1C1;
     background-color: none;
-    border: 1px solid white;}
+    border-color:white;
+     }
+.pagination>li>a.active{
+    color:white;
+     background-color: #E8663C;
+     border-radius: none;
+     border-bottom-left-radius: 0px;
+ border-top-left-radius: 0px;
+}

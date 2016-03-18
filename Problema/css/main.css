@@ -26,26 +26,22 @@
   box-shadow: 1px 1px 1px -1px  black; }
 
 #myCarousel {
-  margin-top: 50px; }
+  margin-top: 50px;
+  border: 10px solid white; }
   #myCarousel img {
-    width: 100%;
-    height: 500px; }
+    width: 100%; }
 
 #img_mg {
   margin-top: 130px; }
-
-.mt {
-  padding: 3px;
-  margin-top: 100px; }
 
 .autor img {
   float: left; }
 
 #from_blog_about {
-  width: 45%;
+  width: 38%;
   height: 34px; }
 
-.bckg_pink {
+.bckg_pink, .bckg_pink_separador, .bckg_pink_separador_footer {
   background-color: #F3AF9D;
   width: 20%;
   margin: 2px;
@@ -65,6 +61,13 @@
 /*HEADER*/
 .nav {
   padding-top: 35px; }
+
+.navbar-toggle {
+  margin-right: -18px;
+  margin-top: 38px; }
+
+.navbar-default .navbar-nav > li > a.active {
+  color: red; }
 
 /*FOOTER*/
 footer {
@@ -96,7 +99,7 @@ h2 {
 
 /*MIXIN NAV*/
 .navbar-default {
-  padding: 0px 100px;
+  padding: 0px 60px;
   font-weight: bold;
   font-family: 'Open Sans Condensed', sans-serif;
   text-transform: uppercase;
@@ -165,25 +168,19 @@ p {
 .text-right {
   float: right; }
 
-.separador {
-  width: 43px;
+.bckg_pink_separador, .bckg_pink_separador_footer {
+  width: 100%;
+  margin-top: 105px;
+  position: absolute;
+  border: none;
+  z-index: -1; }
+
+.mt {
+  height: 55px;
+  padding: 3px;
   margin-top: 100px;
-  position: fixed; }
-
-#right {
-  position: fixed;
-  float: left;
-  margin-left: 96%; }
-
-.as {
-  width: 43px;
-  height: 368px;
-  margin-top: -394px; }
-
-.as2 {
-  width: 43px;
-  height: 368px;
-  margin-top: -372px; }
+  border-left: 6px solid white;
+  border-right: 6px solid white; }
 
 .color_orange {
   color: #E8663C; }
@@ -194,6 +191,9 @@ p {
 .bckg_orange {
   background-color: #E8603C; }
 
+.text-black {
+  color: black; }
+
 .carruse {
   padding: 0px; }
 
@@ -203,7 +203,7 @@ p {
     width: 5%; }
 
 textarea, input {
-  border-color: #E8663C;
+  border: 1px solid #E8663C;
   padding: 13px;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -217,8 +217,15 @@ input {
   padding: 2% 45%; }
 
 .pagination > li > a, .pagination > li > span {
-  color: #AFAFAF;
+  color: #C1C1C1;
   background-color: none;
-  border: 1px solid white; }
+  border-color: white; }
+
+.pagination > li > a.active {
+  color: white;
+  background-color: #E8663C;
+  border-radius: none;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px; }
 
 /*# sourceMappingURL=main.css.map */

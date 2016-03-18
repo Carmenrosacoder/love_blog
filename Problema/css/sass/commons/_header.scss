@@ -3,3 +3,12 @@
 .nav{
 	padding-top: 35px;
 }
+.navbar-toggle {
+
+    margin-right: -18px;
+    margin-top: 38px;
+
+}
+.navbar-default .navbar-nav > li > a.active{
+	color: red;
+}

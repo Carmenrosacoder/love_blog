@@ -1,7 +1,4 @@
-.mt{
-    padding: 3px;
-    margin-top: 100px;
-}
+
 .autor {
     img{
         float: left;
@@ -9,7 +6,7 @@
 }
 #from_blog_about{
 @extend .from_blog;
-width: 45%;
+width: 38%;
 height: 34px;
 }
 

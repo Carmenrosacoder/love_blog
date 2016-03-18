@@ -1,6 +1,7 @@
 
 textarea {
-	border-color:#E8663C;
+
+	border: 1px solid #E8663C;
   padding: 13px;
   margin-top: 10px ;
   margin-bottom: 20px;
@@ -8,7 +9,7 @@ textarea {
 
   input{
   	@extend textarea;
-  
+
   	margin-bottom: 0px;
   	width: 80%
   }

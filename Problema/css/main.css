@@ -168,4 +168,18 @@ p {
   #cita2 img {
     width: 5%; }
 
+textarea, input {
+  border-color: #E8663C;
+  padding: 13px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%; }
+
+input {
+  margin-bottom: 0px;
+  width: 80%; }
+
+.btn_form {
+  padding: 2% 45%; }
+
 /*# sourceMappingURL=main.css.map */

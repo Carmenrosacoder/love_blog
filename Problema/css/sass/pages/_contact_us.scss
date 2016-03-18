@@ -1,0 +1,17 @@
+
+textarea {
+	border-color:#E8663C;
+  padding: 13px;
+  margin-top: 10px ;
+  margin-bottom: 20px;
+  width: 100%; }
+
+  input{
+  	@extend textarea;
+  
+  	margin-bottom: 0px;
+  	width: 80%
+  }
+  .btn_form{
+  	    padding: 2% 45%;
+  }

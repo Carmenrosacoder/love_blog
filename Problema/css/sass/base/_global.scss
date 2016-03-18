@@ -11,25 +11,7 @@ section{
     padding-left: 35px;
     padding-right: 35px;
 }
-@mixin h ($font-size){
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: $font-size;
-}
-h1{
-    @include h(40px);
-}
-h4{
-    @include h(18px);
-}
-h3{
-    color: #AFAFAF;
-    @include h(25px);
-}
-h2 {
-    color: white;
-    @include h(25px);
-}
+
 p{
     font-size: 17px;
      font-family: 'Roboto', sans-serif;

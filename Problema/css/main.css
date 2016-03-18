@@ -63,42 +63,6 @@
   border-left: 10px solid #E8603C; }
 
 /*HEADER*/
-.navbar-default {
-  padding: 0px 100px;
-  font-weight: bold;
-  font-family: 'Open Sans Condensed', sans-serif;
-  text-transform: uppercase;
-  background-color: white;
-  color: #C1C1C1; }
-
-.navbar-default .navbar-nav .active > a {
-  font-weight: bold;
-  font-family: 'Open Sans Condensed', sans-serif;
-  text-transform: uppercase;
-  background-color: white;
-  color: black; }
-
-.navbar-default .navbar-nav > li > a {
-  font-weight: bold;
-  font-family: 'Open Sans Condensed', sans-serif;
-  text-transform: uppercase;
-  background-color: white;
-  color: #C1C1C1; }
-
-.navbar-default .navbar-nav > li > a:hover {
-  font-weight: bold;
-  font-family: 'Open Sans Condensed', sans-serif;
-  text-transform: uppercase;
-  background-color: white;
-  color: #E8603C; }
-
-.navbar-default .navbar-nav > li > a:focus {
-  font-weight: bold;
-  font-family: 'Open Sans Condensed', sans-serif;
-  text-transform: uppercase;
-  background-color: #E8603C;
-  color: white; }
-
 .nav {
   padding-top: 35px; }
 
@@ -107,20 +71,6 @@ footer {
   color: white; }
   footer .single_footer {
     padding: 5px 40px; }
-
-/*GLOBAL*/
-* h1, h2, h3, h4 {
-  font-family: 'Open Sans Condensed', sans-serif; }
-
-body {
-  color: inherit; }
-
-section {
-  padding: 40px 0px; }
-
-.container {
-  padding-left: 35px;
-  padding-right: 35px; }
 
 h1 {
   font-weight: bold;
@@ -143,6 +93,57 @@ h2 {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 25px; }
+
+/*MIXIN NAV*/
+.navbar-default {
+  padding: 0px 100px;
+  font-weight: bold;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  background-color: white;
+  color: #C1C1C1; }
+
+.navbar-default .navbar-nav .active > a {
+  font-weight: bold;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  background-color: white;
+  color: #E8603C; }
+
+.navbar-default .navbar-nav > li > a {
+  font-weight: bold;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  background-color: white;
+  color: #C1C1C1; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  font-weight: bold;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  background-color: white;
+  color: #E8603C; }
+
+.navbar-default .navbar-nav > li > a:focus {
+  font-weight: bold;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  background-color: #E8603C;
+  color: white; }
+
+/*GLOBAL*/
+* h1, h2, h3, h4 {
+  font-family: 'Open Sans Condensed', sans-serif; }
+
+body {
+  color: inherit; }
+
+section {
+  padding: 40px 0px; }
+
+.container {
+  padding-left: 35px;
+  padding-right: 35px; }
 
 p {
   font-size: 17px;
@@ -213,5 +214,10 @@ input {
 
 .btn_form {
   padding: 2% 45%; }
+
+.pagination > li > a, .pagination > li > span {
+  color: #AFAFAF;
+  background-color: none;
+  border: 1px solid white; }
 
 /*# sourceMappingURL=main.css.map */

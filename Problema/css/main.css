@@ -36,6 +36,7 @@
 #img_mg {
   margin-top: 130px; }
 
+/*about_us*/
 .autor img {
   float: left; }
 
@@ -73,7 +74,10 @@
 
 /*FOOTER*/
 footer {
-  color: white; }
+  color: white;
+  border-left: 10px solid white;
+  border-right: 10px solid white;
+  margin: 0px 40px; }
   footer .single_footer {
     padding: 5px 40px; }
 
@@ -184,39 +188,16 @@ p {
   border-left: 6px solid white;
   border-right: 6px solid white; }
 
-footer {
-  border-left: 10px solid white;
-  border-right: 10px solid white;
-  margin: 0px 40px; }
-
-.pink {
-  background-color: pink; }
-
+/*queries*/
 @media screen and (max-width: 600px) {
   section {
     padding: 20px 0px; } }
-.color_orange {
-  color: #E8663C; }
-
-.color_pink {
-  color: #F3AF9D; }
-
-.bckg_orange {
-  background-color: #E8603C; }
-
-.text-black {
-  color: black; }
-
-.white {
-  background-color: red;
-  margin-left: -55px; }
-
+/*BLOG*/
 .carruse {
   padding: 0px; }
 
 #cita2 {
-  background-color: #f6f6f6;
-  margin-left: 54px; }
+  background-color: #f6f6f6; }
   #cita2 img {
     width: 5%; }
 
@@ -227,6 +208,7 @@ footer {
   background-color: #E8663C;
   color: white; }
 
+/*CONTACT US*/
 textarea, input {
   border: 1px solid #E8663C;
   padding: 13px;
@@ -258,5 +240,20 @@ input {
   border: 1px solid #c1c1c1; }
 #portfolio_img .info_blog {
   border-top: 1px solid #c1c1c1; }
+
+.color_orange {
+  color: #E8663C; }
+
+.color_pink {
+  color: #F3AF9D; }
+
+.bckg_orange {
+  background-color: #E8603C; }
+
+.text-black {
+  color: black; }
+
+.pink {
+  background-color: #F3AF9D; }
 
 /*# sourceMappingURL=main.css.map */
